@@ -1,5 +1,12 @@
 # Apache Thrift Changelog
 
+## 0.14.1-patch1
+
+### Go
+
+- [THRIFT-5369](https://issues.apache.org/jira/browse/THRIFT-5369) - No longer pre-allocating the whole container (map/set/list) in compiled go code to avoid huge allocations on malformed messages
+
+
 ## 0.14.1
 
 ### Known Open Issues (Blocker or Critical)
